@@ -18,7 +18,7 @@ function increment(number) {
     return number + 1;
 }
 */
-const increment = (number) => {
+const increment = number => {
     return number + 1;
 }
 
@@ -27,8 +27,7 @@ const increment = (number) => {
  *    braces and the return statement. Update this arrow function to be a one
  *    liner which doesn't include "return".
  */
-const decrement = (number) => {
-    return number - 1;
+const decrement = (number) => number - 1;
 };
 
 module.exports = {
